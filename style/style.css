@@ -1,0 +1,265 @@
+@import "./fonts.css";
+
+/* General settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+button {
+    background: none;
+    border: none;
+}
+/* General settings */
+
+
+/* Unique settings */
+.orange_btn {
+    background: #F46752;
+    width: 220px;
+    height: 61px;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 106px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.container {
+    max-width: 1120px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.section_subtitle {
+    width: 160px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #F46752;
+}
+.section_title {
+    width: 439px;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 52px;
+    color: #1D253C;
+}
+.section_desc {
+    width: 456px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: #5A6482;
+}
+.section_link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #126F86;
+}
+.row {
+    display: flex;
+}
+.col-6 {
+    width: 50%;
+}
+/* Unique settings */
+
+
+
+/* Header section */
+.header {
+    height: 105px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+.header_left {
+    display: flex;
+    align-items: center;
+}
+.header_link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D253C;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+.header_link:hover {
+    color: #007188;
+    border-bottom: 1px solid #007188;
+}
+.header_login {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;    
+    color: #1D253C;
+}
+.header_price {
+    width: 159px;
+    height: 42px;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #1D253C;
+    margin-left: 39px;
+}
+
+/* Header section */
+
+
+/* Hero section */
+.hero {
+    height: 100vh; 
+    background: url("../images/hero.png") no-repeat right;  
+    padding: 223px 0 0 106px;
+    }
+.hero_suptitle {
+    width: 132px;
+    height: 27px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;    
+    text-transform: uppercase;
+    color: #F46752;
+    
+} 
+.hero_title {
+    width: 463px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 68px;    
+    text-transform: capitalize;
+    color: #1D253C;
+}
+.hero_desc {
+    margin: 26px 0 40px;
+    width: 411px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;    
+    color: #5A6482;
+}
+
+/* Hero section */
+
+
+/* Future section */
+.future {
+    padding: 85px 0;
+    background: #F9F5F2;
+}
+.future_left-part {
+    padding-right: 50px;
+}
+.future_right-part {
+    padding-left: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.future_img {
+    padding: 31px 43px 32px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
+}
+.future_data::before {
+    content: "*";
+    color:#F46752;
+}
+.future_data {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A6482;
+}
+.future_title {
+    margin: 26px 0 19px;
+}
+.future_link {
+    margin-top: 32px;
+}
+
+/* Technology section */
+.technology {
+    padding: 148px 0 164px;
+}
+.technology_left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.technology_title {
+    margin: 27px 0 35px;
+}
+.technology_desc {
+   width: 483px;
+}
+.technology_link {
+    margin-top: 27px;
+}
+.technology_right-part {
+    padding-left: 7px;
+}
+.technology_img {
+    position: relative;
+}
+.technology_img img {
+    position: relative;
+    z-index: 2;
+}
+.technology_dots {
+    position: absolute;
+    z-index: 1;
+    left: -45px;
+    top: -35px;
+}
+.tehnology_help {
+    position: absolute;
+    z-index: 3;
+    bottom: -25px;
+    left: -65px;
+    padding: 20px 25px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 34px rgba(66, 71, 77, 0.11);
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1D253C;
+}
+
+/* Technology section */
+
+/* Insurence section */
+
+.insurance {
+    position: relative;
+    padding: 91px 0 85px;
+    text-align: center;
+}
+
+
+
+/* Insurence section */
